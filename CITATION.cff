@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+title: Speculative Denial-of-Service Attacks in Ethereum
+message: 'If you use this, please cite it as below.'
+type: software
+authors:
+  - family-names: Yaish
+    given-names: Aviv
+    orcid: 'https://orcid.org/0000-0002-7971-2494'
+  - family-names: Qin
+    given-names: Kaihua
+    orcid: 'https://orcid.org/0000-0003-2190-3623'
+  - family-names: Zhou
+    given-names: Liyi
+    orcid: 'https://orcid.org/0000-0002-2820-9872'
+  - family-names: Zohar
+    given-names: Aviv
+    orcid: 'https://orcid.org/0000-0001-8539-9222'
+  - family-names: Gervais
+    given-names: Arthur
+    orcid: 'https://orcid.org/0000-0002-3565-3410'
+repository-code: 'https://github.com/AvivYaish/SpeculativeDoS'
+url: 'https://ia.cr/2023/956'
+keywords:
+  - Ethereum
+  - blockchain
+  - cryptocurrencies
+  - security
+  - denial-of-service
+  - transaction fees
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Yaish
+      given-names: Aviv
+      orcid: 'https://orcid.org/0000-0002-7971-2494'
+    - family-names: Qin
+      given-names: Kaihua
+      orcid: 'https://orcid.org/0000-0003-2190-3623'
+    - family-names: Zhou
+      given-names: Liyi
+      orcid: 'https://orcid.org/0000-0002-2820-9872'
+    - family-names: Zohar
+      given-names: Aviv
+      orcid: 'https://orcid.org/0000-0001-8539-9222'
+    - family-names: Gervais
+      given-names: Arthur
+      orcid: 'https://orcid.org/0000-0002-3565-3410'
+  month: 6
+  start: 1
+  end: 24
+  title: Speculative Denial-of-Service Attacks in Ethereum
+  year: 2023
