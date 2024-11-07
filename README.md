@@ -1,6 +1,6 @@
 # SpeculativeDoS
 
-The repository for the paper Speculative Denial-of-Service Attacks in Ethereum:
+The repository for the paper Speculative Denial-of-Service Attacks in Ethereum (USENIX Security '24):
 
 - [Summary](https://x.com/yaish_aviv/status/1670127539048660993)
 - [Talk (Tokenomics)](https://youtu.be/gfMpeQEO50s)
