@@ -6,9 +6,14 @@ The repository for the paper Speculative Denial-of-Service Attacks in Ethereum:
 - [Publication in USENIX SECURITY '24](https://www.usenix.org/conference/usenixsecurity24/presentation/yaish)
 - [Full paper](https://ia.cr/2023/956) (see the "Reproducibility" appendix for instructions on how to use the code)
 
-The file `builder/eth/block-validation/api_test.go`:
+A large amount of our work (1554 lines of code) can be found in the file `builder/eth/block-validation/api_test.go`, which does the following:
  - Sets up a fully-functioning local Ethereum testnet running a fork of [geth](https://github.com/ethereum/go-ethereum/) (Go Ethereum, Ethereum's most popular execution client)
  - Executes the many attacks we present in the paper on this testnet
+
+For example, run `go test -v -run=TestCombinedAttackTestnet -timeout=0` to execute our combined attack, and see how the local testnet does not succeed in adding honest transactions to blocks.
+
+
+As a sanity check, the file can also execute the testnet without attacking it by running `go test -v -run=TestHonestTestnet -timeout=0`, which shows how the testnet does add honest transactions to blocks when it is not under attack.
 
 
 ## Acknowledgements
