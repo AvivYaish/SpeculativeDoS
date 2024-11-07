@@ -7,6 +7,9 @@ This repository contains the code for the paper Speculative Denial-of-Service At
 - [Publication in USENIX SECURITY '24](https://www.usenix.org/conference/usenixsecurity24/presentation/yaish)
 - [Full paper](https://ia.cr/2023/956) (see "Reproducibility" for instructions on how to use the code)
 
+
+## Demo
+
 A large part of our work (1554 lines of code) can be found in the file `builder/eth/block-validation/api_test.go`, which does the following:
  - Sets up a fully-functioning local Ethereum testnet running a fork of [Flashbots' builder client](https://github.com/flashbots/builder), which is a fork of [geth](https://github.com/ethereum/go-ethereum/) (Go Ethereum, Ethereum's most popular execution client)
  - Executes the many attacks we present in the paper on this testnet
