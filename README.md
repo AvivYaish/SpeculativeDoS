@@ -7,7 +7,7 @@ The repository for the paper Speculative Denial-of-Service Attacks in Ethereum:
 - [Full paper](https://ia.cr/2023/956) (see the "Reproducibility" appendix for instructions on how to use the code)
 
 A large part of our work (1554 lines of code) can be found in the file `builder/eth/block-validation/api_test.go`, which does the following:
- - Sets up a fully-functioning local Ethereum testnet running a fork of [geth](https://github.com/ethereum/go-ethereum/) (Go Ethereum, Ethereum's most popular execution client)
+ - Sets up a fully-functioning local Ethereum testnet running a fork of [Flashbots' builder client](https://github.com/flashbots/builder), which is a fork of [geth](https://github.com/ethereum/go-ethereum/) (Go Ethereum, Ethereum's most popular execution client)
  - Executes the many attacks we present in the paper on this testnet
 
 For example, run `go test -v -run=TestCombinedAttackTestnet -timeout=0` to execute our combined attack, and see how the local testnet does not succeed in adding honest transactions to blocks:
@@ -30,6 +30,7 @@ Or, as a video:
 
 ## Acknowledgements
 
-- The code is based on [Flashbots' builder client](https://github.com/flashbots/builder), which is in turn based on geth.
 - This work received two bounties from the Ethereum Foundation and Flashbots
 - In addition, this work received a grant from the Ethereum Foundation
+- Covered by [blockworks](https://mail.blockworks.com/p/thursday-attacking-mailbag)
+- Ranked 63rd in [MLSEC’s Normalized Top-100 Security Papers list](https://web.archive.org/web/20241107203646/https://www.mlsec.org/topnotch/sec_ntop100.html)
