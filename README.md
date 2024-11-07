@@ -12,10 +12,18 @@ A large amount of our work (1554 lines of code) can be found in the file `builde
 
 For example, run `go test -v -run=TestCombinedAttackTestnet -timeout=0` to execute our combined attack, and see how the local testnet does not succeed in adding honest transactions to blocks:
 
+![Attack demo](https://github.com/AvivYaish/SpeculativeDoS/blob/main/demos/attack.png?raw=true)
+
+Or, as a video:
+
 [![Attack demo](https://github.com/AvivYaish/SpeculativeDoS/blob/main/demos/attack.gif?raw=true)](https://youtu.be/olv45A5TH2c)
 
 
 As a sanity check, the file can also execute the testnet without attacking it by running `go test -v -run=TestHonestTestnet -timeout=0`, which shows how the testnet does add honest transactions to blocks when it is not under attack:
+
+![Honest demo](https://github.com/AvivYaish/SpeculativeDoS/blob/main/demos/honest.png?raw=true)
+
+Or, as a video:
 
 [![Honest demo](https://github.com/AvivYaish/SpeculativeDoS/blob/main/demos/honest.gif?raw=true)](https://youtu.be/5mNXc3P0UgI)
 
