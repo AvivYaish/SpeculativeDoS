@@ -23,7 +23,7 @@ Or, as a video:
 [![Attack demo](https://github.com/AvivYaish/SpeculativeDoS/blob/main/demos/attack.gif?raw=true)](https://youtu.be/olv45A5TH2c)
 
 
-As a sanity check, the file can also execute the testnet without attacking it by running `go test -v -run=TestHonestTestnet -timeout=0`, which shows how the testnet does add honest transactions to blocks when it is not under attack:
+As a sanity check, the file can also deploy the testnet without attacking it by running `go test -v -run=TestHonestTestnet -timeout=0`, showing how the testnet does add transactions to blocks when not under attack:
 
 ![Honest demo](https://github.com/AvivYaish/SpeculativeDoS/blob/main/demos/honest.png?raw=true)
 
