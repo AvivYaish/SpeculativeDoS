@@ -2,9 +2,9 @@
 
 The repository for the paper Speculative Denial-of-Service Attacks in Ethereum:
 
+- [Summary](https://x.com/yaish_aviv/status/1670127539048660993)
 - [Publication in USENIX SECURITY '24](https://www.usenix.org/conference/usenixsecurity24/presentation/yaish)
 - [Full paper](https://ia.cr/2023/956) (see the "Reproducibility" appendix for instructions on how to use the code)
-- [Summary](https://x.com/yaish_aviv/status/1670127539048660993)
 
 ## Acknowledgements
 
