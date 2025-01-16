@@ -34,6 +34,7 @@ Or, as a video:
 
 ## Acknowledgements
 
+- This repo is a fork of Flashbots' builder client, which is a geth fork
 - This work received two bounties from the Ethereum Foundation and Flashbots
 - In addition, this work received a grant from the Ethereum Foundation
 - Covered by [blockworks](https://mail.blockworks.com/p/thursday-attacking-mailbag)
