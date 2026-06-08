@@ -19,3 +19,11 @@
 
 # Go workspace file
 go.work
+
+# SpecDOS lab outputs and plaintext experiment keys
+keys.json
+*.keys.json
+lab-keys.json
+contract-address.txt
+specdos-lab/
+specdos-metrics*.jsonl
